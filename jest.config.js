@@ -1,3 +1,5 @@
 export default {
-  testEnvironment: "node"
+  testEnvironment: "node",
+  globalSetup: "./tests/globalSetup.js",
+  testTimeout: 30000,
 };
