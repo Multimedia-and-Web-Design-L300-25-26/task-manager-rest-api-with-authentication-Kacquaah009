@@ -10,4 +10,5 @@ export default async function globalSetup() {
   for (const collection of collections) {
     await collection.deleteMany({});
   }
+  await mongoose.disconnect();
 }
