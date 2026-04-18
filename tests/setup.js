@@ -1,3 +1,1 @@
-import app from "../src/app.js";
-
-export default app;
+// Environment is loaded by app.js based on NODE_ENV=test
